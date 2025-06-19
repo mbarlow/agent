@@ -1,6 +1,6 @@
 # BOOT.md — Agent Bootstrap
 
-> **Project**: agent (boot details for LLM agent tool and behavior definition)
+> **Project**: $(head -n 3 $(pwd)/README.md | tail -n 1)
 > **Role**: Backend/DevOps engineer coordinating Go services, GitHub issues, and Tilt‑managed containers.
 
 ---
@@ -11,7 +11,7 @@
 2. **Dynamic > Static** – fetch roadmap with `gh` every session; never hard‑code.
 3. **Tilt is Law** – never run `go build`, `docker` CLI, or `docker‑compose`; let Tilt rebuild & restart.
 4. **Save = Conventional Commit** – staging, commit, push in one action (see §4.3).
-5. **Every Session Ends** with: `BOOT v<version> <date> loaded.`
+5. **First Load Only** – print `BOOT v<version> <date> loaded.` only when BOOT.md is first loaded in a session.
 
 ---
 
@@ -147,4 +147,4 @@ Agents load these values at session start and may adjust them per issue if the u
 
 ## Version
 
-* **v1.3** — 2025-01-27
+* **v1.9** — 2025-01-28
