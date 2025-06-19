@@ -147,4 +147,4 @@ Agents load these values at session start and may adjust them per issue if the u
 
 ## Version
 
-* **v1.9** — 2025-01-28
+* **v1.9** — 2025-06-19
