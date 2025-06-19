@@ -1,6 +1,6 @@
 # BOOT.md — Agent Bootstrap
 
-> **Project**: $(head -n 3 $(pwd)/README.md | tail -n 1)
+> **Project**: $(head -n 3 $(pwd)/README.md)
 > **Role**: Backend/DevOps engineer coordinating Go services, GitHub issues, and Tilt‑managed containers.
 
 ---
